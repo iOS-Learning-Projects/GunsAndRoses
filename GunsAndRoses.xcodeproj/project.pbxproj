@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8C791731ED4DBB5001B9C05 /* WeaponProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C791721ED4DBB5001B9C05 /* WeaponProtocol.swift */; };
+		E8C791751ED4DE1F001B9C05 /* MonsterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C791741ED4DE1F001B9C05 /* MonsterProtocol.swift */; };
+		E8C791781ED4DED1001B9C05 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C791771ED4DED1001B9C05 /* Monster.swift */; };
 		E8F6B19C1ED4BBD100DA92DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6B19B1ED4BBD100DA92DD /* AppDelegate.swift */; };
 		E8F6B19E1ED4BBD100DA92DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6B19D1ED4BBD100DA92DD /* ViewController.swift */; };
 		E8F6B1A11ED4BBD100DA92DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F6B19F1ED4BBD100DA92DD /* Main.storyboard */; };
 		E8F6B1A31ED4BBD100DA92DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8F6B1A21ED4BBD100DA92DD /* Assets.xcassets */; };
 		E8F6B1A61ED4BBD100DA92DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F6B1A41ED4BBD100DA92DD /* LaunchScreen.storyboard */; };
+		E8F6B1AF1ED4C50900DA92DD /* GunCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6B1AE1ED4C50900DA92DD /* GunCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E8C791721ED4DBB5001B9C05 /* WeaponProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaponProtocol.swift; sourceTree = "<group>"; };
+		E8C791741ED4DE1F001B9C05 /* MonsterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterProtocol.swift; sourceTree = "<group>"; };
+		E8C791771ED4DED1001B9C05 /* Monster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
 		E8F6B1981ED4BBD100DA92DD /* GunsAndRoses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GunsAndRoses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F6B19B1ED4BBD100DA92DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8F6B19D1ED4BBD100DA92DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,7 @@
 		E8F6B1A21ED4BBD100DA92DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8F6B1A51ED4BBD100DA92DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8F6B1A71ED4BBD100DA92DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F6B1AE1ED4C50900DA92DD /* GunCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GunCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8C7916F1ED4DB57001B9C05 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E8F6B19F1ED4BBD100DA92DD /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		E8C791701ED4DB79001B9C05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8F6B1A41ED4BBD100DA92DD /* LaunchScreen.storyboard */,
+				E8F6B19B1ED4BBD100DA92DD /* AppDelegate.swift */,
+				E8F6B1A21ED4BBD100DA92DD /* Assets.xcassets */,
+				E8F6B1A71ED4BBD100DA92DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8C791711ED4DBA1001B9C05 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E8C791721ED4DBB5001B9C05 /* WeaponProtocol.swift */,
+				E8C791741ED4DE1F001B9C05 /* MonsterProtocol.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		E8C791761ED4DEC2001B9C05 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E8C791771ED4DED1001B9C05 /* Monster.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		E8F6B18F1ED4BBD100DA92DD = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +98,22 @@
 		E8F6B19A1ED4BBD100DA92DD /* GunsAndRoses */ = {
 			isa = PBXGroup;
 			children = (
-				E8F6B19B1ED4BBD100DA92DD /* AppDelegate.swift */,
+				E8C791761ED4DEC2001B9C05 /* Models */,
+				E8C791711ED4DBA1001B9C05 /* Protocols */,
+				E8C7916F1ED4DB57001B9C05 /* Storyboards */,
+				E8F6B1AD1ED4C4CD00DA92DD /* Collection View Cell */,
+				E8C791701ED4DB79001B9C05 /* Supporting Files */,
 				E8F6B19D1ED4BBD100DA92DD /* ViewController.swift */,
-				E8F6B19F1ED4BBD100DA92DD /* Main.storyboard */,
-				E8F6B1A21ED4BBD100DA92DD /* Assets.xcassets */,
-				E8F6B1A41ED4BBD100DA92DD /* LaunchScreen.storyboard */,
-				E8F6B1A71ED4BBD100DA92DD /* Info.plist */,
 			);
 			path = GunsAndRoses;
+			sourceTree = "<group>";
+		};
+		E8F6B1AD1ED4C4CD00DA92DD /* Collection View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E8F6B1AE1ED4C50900DA92DD /* GunCollectionViewCell.swift */,
+			);
+			name = "Collection View Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +189,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F6B1AF1ED4C50900DA92DD /* GunCollectionViewCell.swift in Sources */,
+				E8C791781ED4DED1001B9C05 /* Monster.swift in Sources */,
+				E8C791731ED4DBB5001B9C05 /* WeaponProtocol.swift in Sources */,
+				E8C791751ED4DE1F001B9C05 /* MonsterProtocol.swift in Sources */,
 				E8F6B19E1ED4BBD100DA92DD /* ViewController.swift in Sources */,
 				E8F6B19C1ED4BBD100DA92DD /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +358,7 @@
 				E8F6B1AC1ED4BBD100DA92DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
