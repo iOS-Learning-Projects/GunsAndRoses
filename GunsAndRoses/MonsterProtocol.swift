@@ -13,4 +13,6 @@ protocol MonsterProtocol {
     var hitChance: Int { get set }
 
     init(health: Int, hitChance: Int)
+
+    func die()
 }
