@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E862AF431EDC8D3F008E0A58 /* Guilty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E862AF421EDC8D3F008E0A58 /* Guilty.swift */; };
+		E862AF471EDC8DAF008E0A58 /* Gin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E862AF461EDC8DAF008E0A58 /* Gin.swift */; };
+		E862AF491EDC8DCB008E0A58 /* Enviny.swift in Sources */ = {isa = PBXBuildFile; fileRef = E862AF481EDC8DCB008E0A58 /* Enviny.swift */; };
 		E8C791731ED4DBB5001B9C05 /* WeaponProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C791721ED4DBB5001B9C05 /* WeaponProtocol.swift */; };
 		E8C791751ED4DE1F001B9C05 /* MonsterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C791741ED4DE1F001B9C05 /* MonsterProtocol.swift */; };
-		E8C791781ED4DED1001B9C05 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C791771ED4DED1001B9C05 /* Monster.swift */; };
+		E8C791781ED4DED1001B9C05 /* Montilly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C791771ED4DED1001B9C05 /* Montilly.swift */; };
 		E8F6B19C1ED4BBD100DA92DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6B19B1ED4BBD100DA92DD /* AppDelegate.swift */; };
 		E8F6B19E1ED4BBD100DA92DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6B19D1ED4BBD100DA92DD /* ViewController.swift */; };
 		E8F6B1A11ED4BBD100DA92DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F6B19F1ED4BBD100DA92DD /* Main.storyboard */; };
@@ -19,9 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E862AF421EDC8D3F008E0A58 /* Guilty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guilty.swift; sourceTree = "<group>"; };
+		E862AF461EDC8DAF008E0A58 /* Gin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gin.swift; sourceTree = "<group>"; };
+		E862AF481EDC8DCB008E0A58 /* Enviny.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enviny.swift; sourceTree = "<group>"; };
 		E8C791721ED4DBB5001B9C05 /* WeaponProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaponProtocol.swift; sourceTree = "<group>"; };
 		E8C791741ED4DE1F001B9C05 /* MonsterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterProtocol.swift; sourceTree = "<group>"; };
-		E8C791771ED4DED1001B9C05 /* Monster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		E8C791771ED4DED1001B9C05 /* Montilly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Montilly.swift; sourceTree = "<group>"; };
 		E8F6B1981ED4BBD100DA92DD /* GunsAndRoses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GunsAndRoses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F6B19B1ED4BBD100DA92DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8F6B19D1ED4BBD100DA92DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +49,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E862AF441EDC8D67008E0A58 /* Monsters */ = {
+			isa = PBXGroup;
+			children = (
+				E8C791771ED4DED1001B9C05 /* Montilly.swift */,
+				E862AF461EDC8DAF008E0A58 /* Gin.swift */,
+			);
+			name = Monsters;
+			sourceTree = "<group>";
+		};
+		E862AF451EDC8D74008E0A58 /* Weapons */ = {
+			isa = PBXGroup;
+			children = (
+				E862AF421EDC8D3F008E0A58 /* Guilty.swift */,
+				E862AF481EDC8DCB008E0A58 /* Enviny.swift */,
+			);
+			name = Weapons;
+			sourceTree = "<group>";
+		};
 		E8C7916F1ED4DB57001B9C05 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,7 +98,8 @@
 		E8C791761ED4DEC2001B9C05 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E8C791771ED4DED1001B9C05 /* Monster.swift */,
+				E862AF451EDC8D74008E0A58 /* Weapons */,
+				E862AF441EDC8D67008E0A58 /* Monsters */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -190,9 +215,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8F6B1AF1ED4C50900DA92DD /* GunCollectionViewCell.swift in Sources */,
-				E8C791781ED4DED1001B9C05 /* Monster.swift in Sources */,
+				E8C791781ED4DED1001B9C05 /* Montilly.swift in Sources */,
+				E862AF471EDC8DAF008E0A58 /* Gin.swift in Sources */,
+				E862AF431EDC8D3F008E0A58 /* Guilty.swift in Sources */,
 				E8C791731ED4DBB5001B9C05 /* WeaponProtocol.swift in Sources */,
 				E8C791751ED4DE1F001B9C05 /* MonsterProtocol.swift in Sources */,
+				E862AF491EDC8DCB008E0A58 /* Enviny.swift in Sources */,
 				E8F6B19E1ED4BBD100DA92DD /* ViewController.swift in Sources */,
 				E8F6B19C1ED4BBD100DA92DD /* AppDelegate.swift in Sources */,
 			);
