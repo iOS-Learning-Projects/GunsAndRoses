@@ -14,5 +14,5 @@ protocol MonsterProtocol {
 
     init(health: Int, hitChance: Int)
 
-    func die()
+    func die() -> String
 }

@@ -9,28 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var allowsSelection: Bool = false
 
-    @IBOutlet weak var gunsCollection: UICollectionView!
-    @IBOutlet weak var playerImage: UIImageView!
-    @IBOutlet weak var progressView: UIProgressView!
+    @IBOutlet weak var playButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.progressView.progress = 0
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
     @IBAction func playGame(_ sender: Any) {
-        progressView.progress = 100
+        
     }
-
 
 }
 
@@ -56,12 +45,15 @@ extension ViewController: UICollectionViewDataSource {
     }
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+
+
         for cell in collectionView.visibleCells {
             cell.backgroundColor = nil
         }
+
         let selectedCell = collectionView.cellForItem(at: indexPath) as! GunCollectionViewCell
         selectedCell.backgroundColor = UIColor.orange
-        self.playerImage.image = selectedCell.gunImage.image
+        
     }
 
 }

@@ -11,7 +11,11 @@ import Foundation
 struct Guilty: WeaponProtocol {
     var damage: Int = Int(arc4random_uniform(50))
 
-    func attack() -> Bool {
-        return true
+    func attack(monsterWithHitChance hitChance: Int) -> Bool {
+        if self.damage > hitChance {
+            return true
+        } else {
+            return false
+        }
     }
 }

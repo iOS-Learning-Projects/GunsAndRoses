@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E800A42B1EEF7A1000666BE4 /* Greediny.swift in Sources */ = {isa = PBXBuildFile; fileRef = E800A42A1EEF7A1000666BE4 /* Greediny.swift */; };
+		E800A42E1EEF7F6700666BE4 /* Bravery.swift in Sources */ = {isa = PBXBuildFile; fileRef = E800A42D1EEF7F6700666BE4 /* Bravery.swift */; };
+		E800A4301EEF7FB100666BE4 /* Strengthy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E800A42F1EEF7FB100666BE4 /* Strengthy.swift */; };
+		E800A4321EEF7FC700666BE4 /* Brainy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E800A4311EEF7FC700666BE4 /* Brainy.swift */; };
 		E862AF431EDC8D3F008E0A58 /* Guilty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E862AF421EDC8D3F008E0A58 /* Guilty.swift */; };
 		E862AF471EDC8DAF008E0A58 /* Gin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E862AF461EDC8DAF008E0A58 /* Gin.swift */; };
 		E862AF491EDC8DCB008E0A58 /* Enviny.swift in Sources */ = {isa = PBXBuildFile; fileRef = E862AF481EDC8DCB008E0A58 /* Enviny.swift */; };
@@ -19,9 +23,15 @@
 		E8F6B1A31ED4BBD100DA92DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8F6B1A21ED4BBD100DA92DD /* Assets.xcassets */; };
 		E8F6B1A61ED4BBD100DA92DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F6B1A41ED4BBD100DA92DD /* LaunchScreen.storyboard */; };
 		E8F6B1AF1ED4C50900DA92DD /* GunCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6B1AE1ED4C50900DA92DD /* GunCollectionViewCell.swift */; };
+		E8FB08691EEEDE66005A9B00 /* Game.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8FB08681EEEDE66005A9B00 /* Game.storyboard */; };
+		E8FB086B1EEEE30D005A9B00 /* ReignCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB086A1EEEE30D005A9B00 /* ReignCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E800A42A1EEF7A1000666BE4 /* Greediny.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Greediny.swift; sourceTree = "<group>"; };
+		E800A42D1EEF7F6700666BE4 /* Bravery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bravery.swift; sourceTree = "<group>"; };
+		E800A42F1EEF7FB100666BE4 /* Strengthy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strengthy.swift; sourceTree = "<group>"; };
+		E800A4311EEF7FC700666BE4 /* Brainy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brainy.swift; sourceTree = "<group>"; };
 		E862AF421EDC8D3F008E0A58 /* Guilty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guilty.swift; sourceTree = "<group>"; };
 		E862AF461EDC8DAF008E0A58 /* Gin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gin.swift; sourceTree = "<group>"; };
 		E862AF481EDC8DCB008E0A58 /* Enviny.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enviny.swift; sourceTree = "<group>"; };
@@ -36,6 +46,8 @@
 		E8F6B1A51ED4BBD100DA92DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8F6B1A71ED4BBD100DA92DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8F6B1AE1ED4C50900DA92DD /* GunCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GunCollectionViewCell.swift; sourceTree = "<group>"; };
+		E8FB08681EEEDE66005A9B00 /* Game.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Game.storyboard; sourceTree = "<group>"; };
+		E8FB086A1EEEE30D005A9B00 /* ReignCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReignCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +61,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E800A42C1EEF7F4500666BE4 /* Reign */ = {
+			isa = PBXGroup;
+			children = (
+				E800A42D1EEF7F6700666BE4 /* Bravery.swift */,
+				E800A42F1EEF7FB100666BE4 /* Strengthy.swift */,
+				E800A4311EEF7FC700666BE4 /* Brainy.swift */,
+			);
+			name = Reign;
+			sourceTree = "<group>";
+		};
 		E862AF441EDC8D67008E0A58 /* Monsters */ = {
 			isa = PBXGroup;
 			children = (
@@ -63,14 +85,24 @@
 			children = (
 				E862AF421EDC8D3F008E0A58 /* Guilty.swift */,
 				E862AF481EDC8DCB008E0A58 /* Enviny.swift */,
+				E800A42A1EEF7A1000666BE4 /* Greediny.swift */,
 			);
 			name = Weapons;
+			sourceTree = "<group>";
+		};
+		E862AF681EDCC66A008E0A58 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E8F6B19D1ED4BBD100DA92DD /* ViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		E8C7916F1ED4DB57001B9C05 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
 				E8F6B19F1ED4BBD100DA92DD /* Main.storyboard */,
+				E8FB08681EEEDE66005A9B00 /* Game.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -98,6 +130,7 @@
 		E8C791761ED4DEC2001B9C05 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E800A42C1EEF7F4500666BE4 /* Reign */,
 				E862AF451EDC8D74008E0A58 /* Weapons */,
 				E862AF441EDC8D67008E0A58 /* Monsters */,
 			);
@@ -123,12 +156,12 @@
 		E8F6B19A1ED4BBD100DA92DD /* GunsAndRoses */ = {
 			isa = PBXGroup;
 			children = (
+				E862AF681EDCC66A008E0A58 /* Controllers */,
 				E8C791761ED4DEC2001B9C05 /* Models */,
 				E8C791711ED4DBA1001B9C05 /* Protocols */,
 				E8C7916F1ED4DB57001B9C05 /* Storyboards */,
 				E8F6B1AD1ED4C4CD00DA92DD /* Collection View Cell */,
 				E8C791701ED4DB79001B9C05 /* Supporting Files */,
-				E8F6B19D1ED4BBD100DA92DD /* ViewController.swift */,
 			);
 			path = GunsAndRoses;
 			sourceTree = "<group>";
@@ -137,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				E8F6B1AE1ED4C50900DA92DD /* GunCollectionViewCell.swift */,
+				E8FB086A1EEEE30D005A9B00 /* ReignCollectionViewCell.swift */,
 			);
 			name = "Collection View Cell";
 			sourceTree = "<group>";
@@ -201,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8FB08691EEEDE66005A9B00 /* Game.storyboard in Resources */,
 				E8F6B1A61ED4BBD100DA92DD /* LaunchScreen.storyboard in Resources */,
 				E8F6B1A31ED4BBD100DA92DD /* Assets.xcassets in Resources */,
 				E8F6B1A11ED4BBD100DA92DD /* Main.storyboard in Resources */,
@@ -214,15 +249,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8FB086B1EEEE30D005A9B00 /* ReignCollectionViewCell.swift in Sources */,
 				E8F6B1AF1ED4C50900DA92DD /* GunCollectionViewCell.swift in Sources */,
 				E8C791781ED4DED1001B9C05 /* Montilly.swift in Sources */,
 				E862AF471EDC8DAF008E0A58 /* Gin.swift in Sources */,
+				E800A42B1EEF7A1000666BE4 /* Greediny.swift in Sources */,
 				E862AF431EDC8D3F008E0A58 /* Guilty.swift in Sources */,
 				E8C791731ED4DBB5001B9C05 /* WeaponProtocol.swift in Sources */,
 				E8C791751ED4DE1F001B9C05 /* MonsterProtocol.swift in Sources */,
+				E800A4321EEF7FC700666BE4 /* Brainy.swift in Sources */,
+				E800A4301EEF7FB100666BE4 /* Strengthy.swift in Sources */,
 				E862AF491EDC8DCB008E0A58 /* Enviny.swift in Sources */,
 				E8F6B19E1ED4BBD100DA92DD /* ViewController.swift in Sources */,
 				E8F6B19C1ED4BBD100DA92DD /* AppDelegate.swift in Sources */,
+				E800A42E1EEF7F6700666BE4 /* Bravery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

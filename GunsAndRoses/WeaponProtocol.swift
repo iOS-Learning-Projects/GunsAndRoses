@@ -11,5 +11,5 @@ import Foundation
 protocol WeaponProtocol {
     var damage: Int { get set }
 
-    func attack() -> Bool
+    func attack(monsterWithHitChance hitChance: Int) -> Bool
 }
